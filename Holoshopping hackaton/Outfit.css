@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.main{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.main h1{
+    font-size: 45px;
+}
+.box{
+    height: 250px;
+    width: 100%;
+    /* background-color: plum; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box .b1{
+    height: 95%;
+    width: 15%;
+    /* border: 2px solid black; */
+    margin-right: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: purple;
+    color: white; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-option{
+    margin-right: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: plum; */
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-option .a1{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2rem;
+    font-size: 17px;
+    color: black;
+}
+/* .a1 button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: blue;
+    
+    border-radius: 2rem;
+} */
+main{
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.content{
+    height: 300px;
+    width: 500px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    padding-left: 1.5rem;
+}
+main h1{
+    font-size: 65px;
+    /* padding-bottom: 2rem; */
+}
+#main-p{
+    padding-bottom: 2rem;
+}
+.sec{
+    /* background-color: aqua; */
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.sec .d1{
+     height: 90%;
+     width: 300px;
+     border: 2px solid black;
+     margin-right: 2rem;
+    
+}
+.d1 img{
+    width: 80%;
+    height: 75%;
+    margin-left: 2.5rem;
+}
+.d1 p{
+    text-align: center;
+    font-weight: 500;
+}
+.sec .d1:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px black;
+    transition: all 0.1s ease-in 0.7s;
+}
+footer{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer i{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+.copyrgt{
+    background-color: brown;
+    height: 25px;
+}
+.copyrgt p{
+    text-align: center;
+}
